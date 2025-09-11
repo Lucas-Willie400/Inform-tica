@@ -37,11 +37,27 @@
 #         print(n)
 
 #Questão 6:
-# nota = int(input("Digite a nota: "))
-# n = 0
-# def aluno(notasquantidade):
-#     for i in notasquantidade:
-#         n += nota
-# print([1, 2, 3, 4])
-# print(nota/i)
+# def media (notas):
+#     for i in notas
+
+#Questão 7:
+# def fatorial(n):
+#     resultado = 1
+#     contador = n
+#     while contador >= 1:
+#         resultado *= contador
+#         contador -= 1
+#     return resultado
+# numero = 5
+# print(f"O fatorial de {numero} é {fatorial(numero)}")
+
+#Questão 8:
+def palavra(p):
+    for b in [palavra]:
+        if p ==["a","e","i","o","u"]:
+            return(f"Essa palavra tem {b} vogais")
+        else:
+            print("Essa palavra não tem nenhuma vogal.")
+palavra("azul")
+
     
