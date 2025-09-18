@@ -52,12 +52,42 @@
 # print(f"O fatorial de {numero} é {fatorial(numero)}")
 
 #Questão 8:
-def palavra(p):
-    for b in [palavra]:
-        if p ==["a","e","i","o","u"]:
-            return(f"Essa palavra tem {b} vogais")
-        else:
-            print("Essa palavra não tem nenhuma vogal.")
-palavra("azul")
 
-    
+
+# Questão 9:
+# import random
+
+# numero = random.randint(1, 20)
+# numero_digitado = int(input("digite um número: "))
+# if numero == numero_digitado:
+#     print("você acertou!")
+# elif numero > numero_digitado:
+#     print("o número é maior")
+# else:
+#     print("o número é menor")
+# print(numero)
+
+#Questão 10:
+# n =int(input("Digite um número"))
+# pares_soma = 0
+# for i in range(1,n):
+#     if i%2 == 0:
+#         pares_soma += i
+# print(pares_soma)
+
+#Questão 11:
+def calculadora(a,b,operacao):
+    if operacao =="+":
+        return(a +b)
+    elif operacao =="-":
+        return(a - b)
+    elif operacao =="*":
+        return(a  * b)
+    elif operacao =="/":
+        return(a / b)
+    elif b ==0:
+        return("Erro, não dá pra dividir por zero")
+print(calculadora(4,2,"+"))
+print(calculadora(4,2,"-"))
+print(calculadora(4,2,"*"))
+print(calculadora(4,2,"/"))
