@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box {
+    padding: 20px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
+}
+
+.primeiro {
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    color: white;
+    border: solid black 1px;
+    display: inline-block;
+    text-align: center;
+}
